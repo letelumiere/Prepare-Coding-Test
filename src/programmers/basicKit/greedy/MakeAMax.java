@@ -46,11 +46,9 @@ public class MakeAMax {
         }
 
         if(k>0) stack.pop();
-
         while(!stack.isEmpty()){
             answer += stack.pop();
         }
-
         return new StringBuffer(answer).reverse().toString();
     }
 

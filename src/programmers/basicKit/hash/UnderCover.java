@@ -2,7 +2,6 @@ package programmers.basicKit.hash;
 import java.util.*;
 
 public class UnderCover {
-    
     public int solution(String[][] clothes) {
         Map<String, Integer> hMap = new HashMap<>();
         int answer = 1;

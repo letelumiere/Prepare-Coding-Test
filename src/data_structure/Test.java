@@ -1,5 +1,5 @@
 package data_structure;
-
+/* 
 class Node{
     int data;
     Node left;
@@ -49,9 +49,10 @@ class Tree{
         }
     }
 }
-
+*/
 public class Test {
     public static void main(String[] args){
+        /*
         Tree t = new Tree();
         Node n4 = t.makeNode(null, 4, null);
         Node n5 = t.makeNode(null, 5, null);
@@ -62,5 +63,7 @@ public class Test {
         t.inOrder(t.getRoot());
 //        t.preOrder(t.getRoot());
 //        t.postOrder(t.getRoot());
+
+    */
     }
 }

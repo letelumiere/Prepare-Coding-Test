@@ -25,7 +25,6 @@ public class Level1 {
             answer = "";
         }
 
-
         if(answer.length()>=16){
             answer = answer.substring(0, 15);
 
