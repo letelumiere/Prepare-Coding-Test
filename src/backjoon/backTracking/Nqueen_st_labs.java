@@ -29,11 +29,11 @@ public class Nqueen_st_labs {
 		for (int i = 0; i < N; i++) {
 			arr[depth] = i;
 			// 놓을 수 있는 위치일 경우 재귀호출
-			if (Possibility(depth)) nQueen(depth + 1);
+			if (Posibility(depth)) nQueen(depth + 1);
 		}
 	}
     
-    public static boolean Possibility(int col) {
+    public static boolean Posibility(int col) {
     
         for (int i = 0; i < col; i++) {
             if (arr[col] == arr[i]) return false;  // 해당 열의 행과 i열의 행이 일치할경우 (같은 행에 존재할 경우) 

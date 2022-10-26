@@ -39,7 +39,7 @@ public class NandM_4_st_labs {
 			arr[depth] = i;
 			dfs(i, depth + 1);
 		}
- 
+		
 	}
  
 }

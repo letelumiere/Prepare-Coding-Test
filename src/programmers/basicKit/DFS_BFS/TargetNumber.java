@@ -8,7 +8,6 @@ public class TargetNumber {
         return answer;
     }
 
-
     public void dfs(int node, int depth, int total, int[] numbers, int target){
         if(depth==numbers.length){
             if(total==target) ++answer;

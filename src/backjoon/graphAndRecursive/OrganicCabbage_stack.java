@@ -19,7 +19,7 @@ class Node{
     
 }
 
-public class OrganicCabbage {
+public class OrganicCabbage_stack {
    // static Stack<Node> adj;
     static int[][] adj;
     static int[][] wasd = {{0,1},{1,0},{0,-1},{-1,0}};

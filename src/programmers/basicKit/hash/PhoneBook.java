@@ -3,6 +3,7 @@ package programmers.basicKit.hash;
 import java.util.Arrays;
 
 public class PhoneBook {
+
     public boolean solution(String[] phone_book){
         Arrays.sort(phone_book);
         boolean answer = true;
